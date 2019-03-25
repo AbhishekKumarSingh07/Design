@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Design</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+
+    <string name="dcmsg">Thank You Chairman Sir and Director Mam,
+                          For working so hard for us so that we can can achieve success.
+                         We all want to tribute this application to both of you as this idea
+                         was generated as we came to know how much effort both of you are endulging
+                         for making the victory path for us.
+                         From distributing daily newspaper to taking care whether we all are remembering
+                         new words or not.
+                         Both of you have done a lot for us.
+                            And Not only us , each and every student in college is thankfull to you.
+
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>

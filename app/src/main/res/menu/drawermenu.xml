@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/pf" android:title="Profile" android:icon="@drawable/ic_smashicons_flaticon_user"/>
+<item android:id="@+id/dsh" android:title="Home" android:icon="@drawable/ic_smashicons_flaticons_home"/>
+    <item android:id="@+id/ntf" android:title="Notification" android:icon="@drawable/ic_freepic_flaticons_notf"/>
+    <item android:id="@+id/mem" android:title="Members" android:icon="@drawable/ic_eucalyp_flaticons_team"/>
+    <item android:id="@+id/shr" android:title="Leaderboard" android:icon="@drawable/ic_goodware_flaticons_network"/>
+    <item android:id="@+id/thnk" android:title="Credits" android:icon="@drawable/ic_freepic_flaticon_credit"/>
+    <item android:id="@+id/lgot" android:title="Log Out" android:icon="@drawable/ic_freepic_flaticons_exit"/>
+</menu>

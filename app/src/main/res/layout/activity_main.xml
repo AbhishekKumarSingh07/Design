@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#393638"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/mainlogo"
+        android:padding="40sp"
+
+        />
+
+    <android.support.design.widget.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/internationOrange"
+
+        >
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/logEtEml"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:autofillHints="Enrollment Number"
+            android:textColor="@color/input"
+            android:ems="10"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="18dp"/>
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:passwordToggleEnabled="true"
+        android:textColorHint="@color/internationOrange"
+        >
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/logEtPsw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColor="@color/input"
+            android:textColorHint="@color/internationOrange"
+            android:autofillHints="Password"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textSize="18dp"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:id="@+id/btnSignIn"
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:layout_gravity="center"
+        android:textColor=" #0b146e"
+        android:background="@drawable/button_rounded"
+        android:textSize="25sp"/>
+    <Button
+        android:id="@+id/frgtps"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:background="#ffffff"
+        android:text="Forgot Password"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="30sp"
+        android:orientation="horizontal"
+        android:background="@drawable/reg_brackgrnd"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+
+            android:id="@+id/tvoption2"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dont Have An Account ?"
+            android:textColor=" #0b146e"
+            android:gravity="center_vertical|right"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/tvreg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Register"
+            android:gravity="center"
+            android:textColor=" #f6df7d"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

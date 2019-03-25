@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#393638"
+    tools:context=".SignUp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:padding="40dp"
+        android:src="@drawable/mainlogo"/>
+
+    <android.support.design.widget.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/internationOrange"
+        >
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/etname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:autofillHints="Name"
+            android:textColor="@color/input"
+            android:ems="10"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="18dp"/>
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/internationOrange"
+        >
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/etenroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enrollment Number"
+            android:autofillHints="Enrollment Number"
+            android:textColor="@color/input"
+            android:textAlignment="center"
+            android:textColorHint="@color/internationOrange"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="18dp"/>
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/internationOrange"
+        >
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/etbrnch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Branch"
+            android:autofillHints="Branch"
+            android:textColor="@color/input"
+            android:textAlignment="center"
+            android:textColorHint="@color/internationOrange"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="18dp"/>
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/internationOrange"
+        >
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/etemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:autofillHints="Email"
+            android:textColor="@color/input"
+            android:textAlignment="center"
+            android:textColorHint="@color/internationOrange"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:textSize="18dp"/>
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:passwordToggleEnabled="true"
+        android:textColorHint="@color/internationOrange"
+        >
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/etpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Set Password"
+            android:textColor="@color/input"
+            android:textAlignment="center"
+            android:textColorHint="@color/internationOrange"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textSize="18dp"/>
+
+    </android.support.design.widget.TextInputLayout>
+    <RadioGroup
+        android:id="@+id/gend"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10sp"
+        >
+        <TextView
+            android:id="@+id/tvgend"
+            android:layout_marginRight="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/internationOrange"/>
+        <RadioButton
+            android:id="@+id/rbtnma"
+            android:layout_marginRight="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textColor="@color/internationOrange"
+            android:textSize="18sp"
+            android:layout_marginLeft="5sp"/>
+        <RadioButton
+            android:id="@+id/rbtnfem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textSize="18sp"
+            android:textColor="@color/internationOrange"
+            android:layout_marginLeft="5sp"/>
+
+    </RadioGroup>
+    <Button
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:id="@+id/btnSignup"
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_gravity="center"
+        android:textColor=" #0b146e"
+        android:background="@drawable/button_rounded"
+        android:textSize="25sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10sp"
+        android:orientation="horizontal"
+        android:background="@drawable/reg_brackgrnd"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        >
+    <TextView
+
+        android:id="@+id/tvoption"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already Have An Account ?"
+        android:textColor=" #0b146e"
+        android:gravity="center_vertical|right"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/tvLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Sign in"
+            android:gravity="center"
+            android:textColor=" #f6df7d"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
